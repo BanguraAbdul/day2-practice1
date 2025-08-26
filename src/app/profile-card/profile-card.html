@@ -1,0 +1,13 @@
+<h1>ANGULAR DAY 2</h1>
+<P>{{welMessage()}}</P>
+<img [src]="salImageUrl" alt="sisImage">
+
+
+<br>
+<br>
+<button [disabled]="isDisabled"> Action </button>
+
+<button (click)="toggleButtonState()">Toggle Action state</button>
+<p>
+  The button is {{ isDisabled ? 'disabled' : 'enabled' }}.
+</p>
